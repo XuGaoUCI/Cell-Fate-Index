@@ -7,7 +7,7 @@ library(stringi)
 library(splines)
 # load in data and preprocessing
 human.signal <- read.xlsx('/path/to/human/signals.xlsx', sheet = 1)
-rat.signal <- read.xlsx('/path/to/human/signals.xlsx', sheet = 3)
+rat.signal <- read.xlsx('/path/to/mice/signals.xlsx', sheet = 3)
 cluster.human <- read.xlsx('/path/to/human/group.xlsx', sheet = 1)
 cluster.rat <- read.xlsx('/path/to/mice/group.xlsx', sheet = 2)
 roadmap <- read.xlsx('/path/to/roadmap.xlsx', sheet = 5)
